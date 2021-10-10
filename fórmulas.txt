@@ -1,0 +1,7 @@
+Acrescenta uma linha de zeros à matriz B 
+
+B = [B; zeros(1,size(B)(2))];
+
+Acrescenta uma coluna de zeros à matriz B
+
+B = [B, zeros(size(B)(1),1)];
